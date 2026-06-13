@@ -99,6 +99,9 @@ Generates:
   
 <img width="1916" height="1046" alt="rds_sql_schema" src="https://github.com/user-attachments/assets/b3da32ae-2ab5-4ce5-a2ba-dd6f5f0a1aa8" />
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f36617a9-2959-4a63-aa79-0fc2b5aca0da" />
+
+
 
 
 ### Dashboarding
@@ -124,23 +127,26 @@ flight-tracking/
 │   └── opensky_fetcher.py
 │
 ├── spark/
-│   ├── streaming_job.py
-│   ├── schemas.py
-│   └── transformations.py
+│   ├── spark_consumer.py
 │
-├── dashboards/
-│   └── powerbi.pbix
+├── infra/
+│   ├── aws
+|        └── iam_policy.json
+|        └── security_groups.md
+│   ├── kafka
+|          └── server.properties
+|   ├── rds
+|        └── schema.sql
+│   ├── s3
+|        └── s3_bucket.md
 │
-├── configs/
-│   ├── kafka_config.py
-│   ├── aws_config.py
-│   └── mysql_config.py
+├── tmp/checkpoints/
 │
-├── checkpoints/
-│
-├── docs/
+├── screenshots/
 │
 ├── requirements.txt
+|
+├── Architecture.png
 │
 └── README.md
 ```
