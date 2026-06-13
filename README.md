@@ -324,12 +324,12 @@ Hosts:
 
 ### Instance Configuration
 
-Recommended:
+Recommended: Bare Minimum
 
 ```text
-t3.medium
-4 GB RAM
-2 vCPU
+t2.micro
+1 GB RAM
+1 vCPU
 ```
 
 For larger workloads:
